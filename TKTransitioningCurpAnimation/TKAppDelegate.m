@@ -7,17 +7,27 @@
 //
 
 #import "TKAppDelegate.h"
+#import "TKNavigatoinController.h"
 #import "TKFirstViewController.h"
+#import "TKNaviViewController.h"
+
+#define IOS7Device [[[UIDevice currentDevice] systemVersion] floatValue] >= 7.0
+
 @implementation TKAppDelegate
 
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions
 {
     // Override point for customization after application launch.
     self.window = [[UIWindow alloc] initWithFrame:[[UIScreen mainScreen] bounds]];
-    UINavigationController * navi = [[UINavigationController alloc] initWithRootViewController:[[TKFirstViewController alloc] init]];
+    TKNaviViewController * navi = [[TKNaviViewController alloc] initWithRootViewController:[[TKFirstViewController alloc] init]];
     self.window.rootViewController = navi;
     [self.window makeKeyAndVisible];
     
+    if (IOS7Device) {
+        [[UINavigationBar appearance] setTintColor:[UIColor whiteColor]];
+        [[UINavigationBar appearance] setBackgroundImage:[UIImage imageNamed:@"navigationbarbg"] forBarMetrics:UIBarMetricsDefault];
+        [application setStatusBarStyle:UIStatusBarStyleLightContent];
+    }
     return YES;
 }
 							

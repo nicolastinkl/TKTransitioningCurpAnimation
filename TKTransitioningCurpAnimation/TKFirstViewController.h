@@ -10,6 +10,6 @@
 
 #import "TKSuperViewController.h"
 
-@interface TKFirstViewController : TKSuperViewController
+@interface TKFirstViewController : UIViewController
 
 @end
