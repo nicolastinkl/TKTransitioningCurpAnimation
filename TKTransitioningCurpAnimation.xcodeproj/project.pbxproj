@@ -20,10 +20,6 @@
 		93A65B88191C9F4600B1BE2A /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 93A65B67191C9F4600B1BE2A /* UIKit.framework */; };
 		93A65B90191C9F4600B1BE2A /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 93A65B8E191C9F4600B1BE2A /* InfoPlist.strings */; };
 		93A65B92191C9F4600B1BE2A /* TKTransitioningCurpAnimationTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 93A65B91191C9F4600B1BE2A /* TKTransitioningCurpAnimationTests.m */; };
-		93A65B9F191CA16900B1BE2A /* TKSwipeUpInteractiveTransition.m in Sources */ = {isa = PBXBuildFile; fileRef = 93A65B9E191CA16900B1BE2A /* TKSwipeUpInteractiveTransition.m */; };
-		93A65BA2191CA29100B1BE2A /* TKPushAnimation.m in Sources */ = {isa = PBXBuildFile; fileRef = 93A65BA1191CA29100B1BE2A /* TKPushAnimation.m */; };
-		93A65BA5191CA33100B1BE2A /* TKSuperViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 93A65BA4191CA33100B1BE2A /* TKSuperViewController.m */; };
-		93A65BA9191CBA2D00B1BE2A /* TKNavigatoinController.m in Sources */ = {isa = PBXBuildFile; fileRef = 93A65BA8191CBA2D00B1BE2A /* TKNavigatoinController.m */; };
 		93A65BAD191CC11300B1BE2A /* TKNaviViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 93A65BAC191CC11300B1BE2A /* TKNaviViewController.m */; };
 /* End PBXBuildFile section */
 
@@ -56,14 +52,6 @@
 		93A65B8D191C9F4600B1BE2A /* TKTransitioningCurpAnimationTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "TKTransitioningCurpAnimationTests-Info.plist"; sourceTree = "<group>"; };
 		93A65B8F191C9F4600B1BE2A /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		93A65B91191C9F4600B1BE2A /* TKTransitioningCurpAnimationTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TKTransitioningCurpAnimationTests.m; sourceTree = "<group>"; };
-		93A65B9D191CA16900B1BE2A /* TKSwipeUpInteractiveTransition.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TKSwipeUpInteractiveTransition.h; sourceTree = "<group>"; };
-		93A65B9E191CA16900B1BE2A /* TKSwipeUpInteractiveTransition.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TKSwipeUpInteractiveTransition.m; sourceTree = "<group>"; };
-		93A65BA0191CA29100B1BE2A /* TKPushAnimation.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TKPushAnimation.h; sourceTree = "<group>"; };
-		93A65BA1191CA29100B1BE2A /* TKPushAnimation.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TKPushAnimation.m; sourceTree = "<group>"; };
-		93A65BA3191CA33100B1BE2A /* TKSuperViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TKSuperViewController.h; sourceTree = "<group>"; };
-		93A65BA4191CA33100B1BE2A /* TKSuperViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TKSuperViewController.m; sourceTree = "<group>"; };
-		93A65BA7191CBA2D00B1BE2A /* TKNavigatoinController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TKNavigatoinController.h; sourceTree = "<group>"; };
-		93A65BA8191CBA2D00B1BE2A /* TKNavigatoinController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TKNavigatoinController.m; sourceTree = "<group>"; };
 		93A65BAB191CC11300B1BE2A /* TKNaviViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = TKNaviViewController.h; path = TransitioningCurp/TKNaviViewController.h; sourceTree = "<group>"; };
 		93A65BAC191CC11300B1BE2A /* TKNaviViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = TKNaviViewController.m; path = TransitioningCurp/TKNaviViewController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -126,7 +114,6 @@
 			isa = PBXGroup;
 			children = (
 				93A65BAA191CC0F900B1BE2A /* TransSupportios6 */,
-				93A65B9C191CA13300B1BE2A /* TransitioningCurp */,
 				93A65B72191C9F4600B1BE2A /* TKAppDelegate.h */,
 				93A65B73191C9F4600B1BE2A /* TKAppDelegate.m */,
 				93A65B78191C9F4600B1BE2A /* TKFirstViewController.h */,
@@ -164,21 +151,6 @@
 				93A65B8E191C9F4600B1BE2A /* InfoPlist.strings */,
 			);
 			name = "Supporting Files";
-			sourceTree = "<group>";
-		};
-		93A65B9C191CA13300B1BE2A /* TransitioningCurp */ = {
-			isa = PBXGroup;
-			children = (
-				93A65B9D191CA16900B1BE2A /* TKSwipeUpInteractiveTransition.h */,
-				93A65B9E191CA16900B1BE2A /* TKSwipeUpInteractiveTransition.m */,
-				93A65BA0191CA29100B1BE2A /* TKPushAnimation.h */,
-				93A65BA1191CA29100B1BE2A /* TKPushAnimation.m */,
-				93A65BA3191CA33100B1BE2A /* TKSuperViewController.h */,
-				93A65BA4191CA33100B1BE2A /* TKSuperViewController.m */,
-				93A65BA7191CBA2D00B1BE2A /* TKNavigatoinController.h */,
-				93A65BA8191CBA2D00B1BE2A /* TKNavigatoinController.m */,
-			);
-			path = TransitioningCurp;
 			sourceTree = "<group>";
 		};
 		93A65BAA191CC0F900B1BE2A /* TransSupportios6 */ = {
@@ -288,13 +260,9 @@
 			buildActionMask = 2147483647;
 			files = (
 				93A65B70191C9F4600B1BE2A /* main.m in Sources */,
-				93A65BA9191CBA2D00B1BE2A /* TKNavigatoinController.m in Sources */,
 				93A65B7A191C9F4600B1BE2A /* TKFirstViewController.m in Sources */,
-				93A65B9F191CA16900B1BE2A /* TKSwipeUpInteractiveTransition.m in Sources */,
 				93A65B74191C9F4600B1BE2A /* TKAppDelegate.m in Sources */,
 				93A65BAD191CC11300B1BE2A /* TKNaviViewController.m in Sources */,
-				93A65BA5191CA33100B1BE2A /* TKSuperViewController.m in Sources */,
-				93A65BA2191CA29100B1BE2A /* TKPushAnimation.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

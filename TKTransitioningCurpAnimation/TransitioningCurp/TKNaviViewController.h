@@ -1,5 +1,5 @@
 //
-//  TKSuperViewController.h
+//  TKNaviViewController.h
 //  TKTransitioningCurpAnimation
 //
 //  Created by tinkl on 9/5/14.
@@ -8,6 +8,6 @@
 
 #import <UIKit/UIKit.h>
 
-@interface TKSuperViewController : UIViewController
+@interface TKNaviViewController : UINavigationController
 
 @end
